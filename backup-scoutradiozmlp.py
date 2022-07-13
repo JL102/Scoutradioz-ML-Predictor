@@ -345,7 +345,6 @@ def get_database():
 
 	# Provide the mongodb atlas url to connect python to mongodb using pymongo
 	CONNECTION_STRING = "mongodb://localhost:27017/app"
-	# CONNECTION_STRING = "mongodb://DbUser:v5R4AYRsNrKC7jQq@scoutradioz-shard-00-00-cpcvb.mongodb.net:27017,scoutradioz-shard-00-01-cpcvb.mongodb.net:27017,scoutradioz-shard-00-02-cpcvb.mongodb.net:27017/prod?authSource=admin&gssapiServiceName=mongodb&replicaSet=Scoutradioz-shard-0&retryWrites=true&ssl=true&w=majority"
 	
 	client = MongoClient(CONNECTION_STRING)
 
@@ -882,7 +881,6 @@ def get_database():
 
 	# Provide the mongodb atlas url to connect python to mongodb using pymongo
 	CONNECTION_STRING = "mongodb://localhost:27017/app"
-	# CONNECTION_STRING = "mongodb://DbUser:v5R4AYRsNrKC7jQq@scoutradioz-shard-00-00-cpcvb.mongodb.net:27017,scoutradioz-shard-00-01-cpcvb.mongodb.net:27017,scoutradioz-shard-00-02-cpcvb.mongodb.net:27017/prod?authSource=admin&gssapiServiceName=mongodb&replicaSet=Scoutradioz-shard-0&retryWrites=true&ssl=true&w=majority"
 	
 	client = MongoClient(CONNECTION_STRING)
 
