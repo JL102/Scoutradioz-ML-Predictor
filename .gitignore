@@ -1,0 +1,6 @@
+lightning_logs
+__pycache__
+# This was from a school project folder, so there are a few miscellaneous files in this folder unrelated to the project:
+*.html
+*.gz
+*.pdf
